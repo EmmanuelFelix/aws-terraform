@@ -41,7 +41,7 @@ resource "aws_s3_bucket" "vpc_flow_log_bucket" {
   # Bucket name must be globally unique and lowercase
   bucket = "vpc-flow-logs-${data.aws_caller_identity.current.account_id}-${random_pet.bucket_name_suffix.id}"
 
-  # 👇 ADD THIS LINE TO ALLOW DELETION WHEN NOT EMPTY
+ 
   force_destroy = true
 }
 
