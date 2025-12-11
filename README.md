@@ -1,3 +1,10 @@
+🚀 AWS & Terraform Examples
+A curated collection of Infrastructure as Code (IaC) examples using Terraform to provision and manage resources on Amazon Web Services (AWS).
+
+This repository is designed to be a learning tool and a starting point for deploying common AWS architectures. Each example is a standalone module that can be leveraged and customized for your own projects.
+
+
+
 🛠️ Prerequisites
 Before you begin, ensure you have the following tools installed and configured:
 
